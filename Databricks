@@ -1,0 +1,2 @@
+df_total_each_category_top5=df_sales.join(df_menu,'productid').groupBy('ProductName').agg(count('customerID').alias('Total')).orderBy('Total',ascending=0).limit(5)
+display(df_total_each_category_top5)
