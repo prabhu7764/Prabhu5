@@ -1,0 +1,18 @@
+{
+	"name": "AzureSqlDatabase1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "prabhu.database.windows.net",
+			"database": "prabhusys",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"hostNameInCertificate": "",
+			"authenticationType": "SQL",
+			"userName": "prabhu",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDY0OUE4MDdFLUFFMjQtNDg5Ny1BQTlBLTQwMThGRDBEN0M1N19lYTRmYzg0Yy0zN2U5LTQ2YTYtYjliYS1mNjJlZmJkZjA5NjciDQp9"
+		}
+	}
+}
